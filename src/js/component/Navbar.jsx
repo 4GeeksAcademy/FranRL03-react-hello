@@ -1,4 +1,5 @@
 import React from "react"
+import { BtnCallToAction } from "./BtnCallToAction";
 
 const Navbar = () => {
     const clase = 'Spain-93';
@@ -30,7 +31,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <form className="d-flex" role="search">
-                        <button className="btn btn-outline-success" type="submit">Search</button>
+                        <BtnCallToAction />
                     </form>
                 </div>
             </div>
